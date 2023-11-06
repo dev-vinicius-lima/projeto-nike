@@ -2,96 +2,368 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200;1,800&display=swap');
 
-header>menu {
+/* @media (min-width: 501px) {
+
+    #nike {
+        display: inline-block;
+        margin: 30px 25px 0 30px;
+    }
+
+    .link {
+        text-decoration: none;
+        color: black;
+        font-size: 28px;
+        font-family: "Karla";
+        font-weight: 400;
+        word-wrap: break-word;
+        margin-right: 25px;
+    }
+
+    main {
+        width: 670px;
+        height: 400px;
+        margin: 40px 0px 0px 25px;
+
+    }
+
+    #men {
+        color: black;
+        font-size: 34px;
+        font-family: "Karla";
+        font-weight: 700;
+        word-wrap: break-word
+    }
+
+    .compras {
+        display: inline-block;
+        width: 100px;
+        height: 99px;
+        margin-right: 90px;
+    }
+
+    #tenis {
+        width: 700px;
+        height: 500px;
+        transform: rotate(-18.59deg);
+        transform-origin: 0 0;
+
+        position: relative;
+
+        top: -300px;
+        right: -370px;
+    }
+
+    h1 {
+        color: black;
+        font-size: 55px;
+        font-family: Karla;
+        font-weight: 800;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: black;
+        font-size: 28px;
+        font-family: "Karla";
+        font-weight: 300;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        text-align: initial;
+    }
+
+    main {
+        width: 670px;
+        height: 400px;
+        margin: 40px 0px 0px 25px;
+
+    }
+
+    .botao {
+        color: white;
+        font-size: 40px;
+        font-family: "Karla";
+        font-weight: 700;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        background-color: black;
+        margin: 20px 0 0 130px;
+        padding: 20px;
+        width: 250px;
+        border-radius: 20px;
+    }
+
+} */
+
+
+
+
+/* MOBILE */
+
+section {
+    display: inline-block
+}
+
+#nike {
+    margin: 12px;
+    
+}
+
+menu>a {
+    display: none;
+}
+
+img>#compras {
     display: inline-block;
-    margin: 40px 100px 0 100px;
-    position: relative;
-    top: -70px;
-}
-#nike{
-   display: inline-block;
-    margin: 30px 25px 0 30px;
-
+    width: 64px;
+    height: 44px;
 }
 
-.link {
-    text-decoration: none;
-    color: black;
-    font-size: 28px;
-    font-family: "Karla";
-    font-weight: 400;
-    word-wrap: break-word;
-    margin-right: 25px;
+.text {
+    display: block;
+    position: absolute;
+    bottom: 14%;
+    left: 5%;
 }
 
-#men {
-    color: black;
-    font-size: 34px;
-    font-family: "Karla";
-    font-weight: 700;
-    word-wrap: break-word
+#tenis {
+    width: 300px;
+    height: 285px;
+    position: absolute;
+    top: 15%;
+    right: 12%;
 }
 
-.compras {
-    display: inline-block;
-    width: 100px;
-    height: 99px;
-    margin-right: 90px;
-}
-#tenis{
-    width: 700px; 
-    height:500px; 
-    transform: rotate(-18.59deg);
-    transform-origin: 0 0;
-
-    position: relative;
-   
-    top:-300px ;
-    right: -370px;
-}
-h1{
-    color: black;
-    font-size: 55px;
-    font-family: Karla;
-    font-weight: 800;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    margin-bottom: 10px;
-}
-p{
-    color: black;
-    font-size: 28px;
-    font-family: "Karla";
-    font-weight: 300;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    text-align: initial;
-}
-main{
-    width: 670px;
-    height: 400px;
-    margin: 40px 0px 0px 25px;
-
-}
-.botao{
-    color: white;
-    font-size: 40px;
-    font-family: "Karla";
-    font-weight: 700;
-    text-transform: uppercase;
-    word-wrap: break-word;
+.botao {
+    display: block;
+    width: 200px;
+    height: 45px;
+    margin: auto;
+    margin-top: 13px;
     background-color: black;
-    margin: 20px 0 0 130px;
-    padding: 20px;
-    width: 250px;
+    color: white;
     border-radius: 20px;
 }
-html body{
-    width:100vw ;
-    height: 100vh;
 
+.botao:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+
+
+@media screen and (min-width:541px) and (max-width:1089px) {
+    menu {
+        display: inline-block;
+        margin: 40px 100px 0 100px;
+        position: relative;
+        top: -70px;
+    }
+
+    #nike {
+        display: inline-block;
+        margin: 30px 25px 0 45px;
+
+    }
+
+    .link {
+        text-decoration: none;
+        color: black;
+        font-size: 28px;
+        font-family: "Karla";
+        font-weight: 400;
+        word-wrap: break-word;
+        margin-right: 25px;
+    }
+
+    #men {
+        color: black;
+        font-size: 34px;
+        font-family: "Karla";
+        font-weight: 700;
+        word-wrap: break-word
+    }
+
+    .compras {
+        display: inline-block;
+        width: 100px;
+        height: 99px;
+        margin-right: 90px;
+    }
+
+    #tenis {
+        width: 37vw;
+        height: 33vh;
+        transform: rotate(0.41deg);
+        transform-origin: 0 0;
+
+        position: relative;
+
+        top: -230px;
+        right: -230px;
+    }
+
+    h1 {
+        color: black;
+        font-size: 55px;
+        font-family: Karla;
+        font-weight: 800;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: black;
+        font-size: 28px;
+        font-family: "Karla";
+        font-weight: 300;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        text-align: initial;
+        width: 90vw;
+    }
+
+    main {
+        width: 670px;
+        height: 245px;
+        margin: 40px 0px 0px 25px;
+
+    }
+
+    .botao {
+        display: block;
+        width: 252px;
+        height: 60px;
+        margin: auto;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 30px;
+        position: absolute;
+        left: 200px;
+    }
+
+    .botao:hover {
+        background-color: rgba(0, 0, 0, 0.61);
+        border: none;
+    }
+
+    .text {
+        position: absolute;
+        top: 70%;
+        right: -65%;
+        margin: 0px 0px;
+    }
+
+}
+
+
+
+@media screen and (min-width:1095px) {
+
+    /*DESKTOP */
+
+    menu {
+        display: inline-block;
+        margin: 40px 100px 0 100px;
+        position: relative;
+        top: -70px;
+    }
+
+    #nike {
+        display: inline-block;
+        margin: 30px 25px 0 45px;
+
+    }
+
+    .link {
+        text-decoration: none;
+        color: black;
+        font-size: 28px;
+        font-family: "Karla";
+        font-weight: 400;
+        word-wrap: break-word;
+        margin-right: 25px;
+    }
+
+    #men {
+        color: black;
+        font-size: 34px;
+        font-family: "Karla";
+        font-weight: 700;
+        word-wrap: break-word
+    }
+
+    .compras {
+        display: inline-block;
+        width: 100px;
+        height: 99px;
+        margin-right: 90px;
+    }
+
+    #tenis {
+        width: 37vw;
+        height: 33vh;
+        transform: rotate(-18.59deg);
+        transform-origin: 0 0;
+
+        position: relative;
+
+        top: -121px;
+        right: -700px;
+    }
+
+    h1 {
+        color: black;
+        font-size: 55px;
+        font-family: Karla;
+        font-weight: 800;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: black;
+        font-size: 28px;
+        font-family: "Karla";
+        font-weight: 300;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        text-align: initial;
+    }
+
+    main {
+        width: 670px;
+        height: 245px;
+        margin: 40px 0px 0px 25px;
+
+    }
+
+    .botao {
+        display: block;
+        width: 200px;
+        height: 45px;
+        margin: auto;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .botao:hover {
+        background-color: rgba(0, 0, 0, 0.61);
+        border: none;
+    }
+
+    .text {
+        position: relative;
+        top: 70px;
+    }
 }

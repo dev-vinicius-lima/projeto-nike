@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+@media screen and (min-width:1090px) {
+
+    /* DESKTOP */
+
+    menu {
+        display: inline-block;
+        margin: 40px 100px 0 100px;
+        position: relative;
+        top: -70px;
+    }
+
+    #nike {
+        display: inline-block;
+        margin: 30px 25px 0 45px;
+
+    }
+
+    .link {
+        text-decoration: none;
+        color: black;
+        font-size: 28px;
+        font-family: "Karla";
+        font-weight: 400;
+        word-wrap: break-word;
+        margin-right: 25px;
+    }
+
+    #men {
+        color: black;
+        font-size: 34px;
+        font-family: "Karla";
+        font-weight: 700;
+        word-wrap: break-word
+    }
+
+    .compras {
+        display: inline-block;
+        width: 100px;
+        height: 99px;
+        margin-right: 90px;
+    }
+
+    #tenis {
+        width: 37vw;
+        height: 33vh;
+        transform: rotate(-18.59deg);
+        transform-origin: 0 0;
+
+        position: relative;
+
+        top: -121px;
+        right: -700px;
+    }
+
+    h1 {
+        color: black;
+        font-size: 55px;
+        font-family: Karla;
+        font-weight: 800;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: black;
+        font-size: 28px;
+        font-family: "Karla";
+        font-weight: 300;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        text-align: initial;
+    }
+
+    main {
+        width: 670px;
+        height: 245px;
+        margin: 40px 0px 0px 25px;
+
+    }
+
+    .botao {
+        color: white;
+        font-size: 40px;
+        font-family: "Karla";
+        font-weight: 700;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        background-color: black;
+        margin: 20px 0 0 130px;
+        padding: 20px;
+        width: 250px;
+        border-radius: 20px;
+    }
+
+    .text {
+        position: relative;
+        top: 70px;
+    }
+}
